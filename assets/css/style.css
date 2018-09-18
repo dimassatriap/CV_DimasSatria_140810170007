@@ -1,0 +1,120 @@
+/*--------------------------------------------------------------------------------    
+                 Default VALUES :
+
+        FONT FAMILY     : Roboto Condensed
+
+        Blue Color      : #52b3d9
+        Green Tosca     : #68c3a3
+        Light Grey      : #a6adb5
+        Dark Grey       : ##494d50
+
+=================================================================================*/
+
+html, 
+body {
+    height: 100%;
+}
+
+body{
+    color: #64707b;
+    font-weight: 300;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 28px;
+    font-weight: 300;
+    color:#282828;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    margin:0;
+    text-transform: uppercase;
+    color: #494d50;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+h4, h5, h6{
+    font-weight: 700;
+    margin:0;
+}
+
+/* LIST STYLE
+-------------------------------------------------- */
+ul, ol {
+    margin     : 0;
+    padding    : 0;
+    list-style : none
+}
+
+ul.list-check li{
+    position: relative;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+ul.list-check li::before {
+    content: "\f00c";
+    color: #68c3a3;
+    margin-right: 10px;
+}
+
+/* SECTION TITLE
+----------------------------------------------------- */
+
+.section-padding {
+    padding: 50px 0 50px;
+}
+.section-title{
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    position: relative;    
+}
+
+.section-title::after{
+    content: "";
+    background: url(../images/section-divider.png) no-repeat 0 0;
+    height: 15px;
+    width: 113px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    margin: 0 auto;
+}
+
+/*--------------------------------------------------------------------------------                                       
+                                    ABOUT
+=================================================================================*/
+
+#about h2{
+    letter-spacing: 4px;
+}
+
+#about h4{
+    color: #a6adb5;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+#about img{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.education-bar h3{
+    margin-left: 20px;
+    letter-spacing: 5px;
+    padding: 12px 0;
+    border-top: 1px solid #a6adb5;
+    border-bottom: 1px solid #a6adb5;
+}
